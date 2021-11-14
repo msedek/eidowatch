@@ -1,0 +1,25 @@
+<resources>
+
+
+
+        <string name="iptab">http://192.168.0.34:3000/</string>
+    <string name="iptab2">http://192.168.0.34/</string>
+<!--    <string name="iptab">http://104.196.178.124:3000</string>
+    <string name="iptab2">http://104.196.178.124/</string>-->
+
+
+    <string name="app_name">SmarTab</string>
+    <string name="hello_world">Hello World!</string>
+
+    <string-array name="mesas_array">
+        <item>01 – 04</item>
+        <item>05 – 08</item>
+        <item>09 – 12</item>
+        <item>13 – 16</item>
+    </string-array>
+
+
+
+
+
+</resources>

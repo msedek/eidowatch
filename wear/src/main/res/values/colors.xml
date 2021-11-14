@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="fondos">#74B635</color>
+    <color name="ninos">#59991B</color>
+    <color name="entradas">#CA603B</color>
+    <color name="guarni">#E88462</color>
+    <color name="postres">#7E2784</color>
+    <color name="ccomanda">#582A72</color>
+    <color name="cboff">#d4d6d8</color>
+    <color name="tomado">#6E1237</color>
+    <color name="red">#FF00</color>
+    <color name="ctexto">#ffffff</color>
+    <color name="fondot">#C7C7C7C7</color>
+    <color name="over">#6d6e71</color>
+
+    <color name="cocina">#ffb400</color>
+    <color name="bar">#e60050</color>
+    <color name="caja">#9bc832</color>
+    <color name="mesa">#00a0f5</color>
+    <color name="dpto">#0d0d0d</color>
+    <color name="letras">#fefefe</color>
+
+
+
+
+</resources>

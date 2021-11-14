@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.wearable.view.BoxInsetLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/grey"
+    tools:context="com.eidotab.smartab.MainActivity"
+    tools:deviceIds="wear">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:visibility="invisible"
+            android:id="@+id/lymesa"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginTop="65dp"
+            android:gravity="top|center_horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Asignar Mesas de Trabajo"
+                android:textColor="@color/black"
+                android:textStyle="bold|italic"
+                android:layout_marginBottom="10dp"
+                tools:ignore="HardcodedText" />
+
+            <Spinner
+                android:id="@+id/combobox"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content">
+
+
+            </Spinner>
+
+            <Button
+                android:id="@+id/btn_smesa"
+                android:layout_marginTop="30dp"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:text="OK"
+                tools:ignore="HardcodedText" />
+
+
+        </LinearLayout>
+
+
+
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/myRecyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+        <TextView
+            android:id="@+id/habtimertxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="false"
+            android:visibility="gone"
+            tools:ignore="HardcodedText" />
+
+
+
+    </FrameLayout>
+
+
+
+</android.support.wearable.view.BoxInsetLayout>

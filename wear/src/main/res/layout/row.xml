@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.wearable.view.BoxInsetLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:id="@+id/elpadre"
+    android:background="@drawable/mesaf">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_marginTop="30dp"
+            android:paddingStart="20dp"
+            android:paddingEnd="10dp"
+            android:gravity="center"
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:weightSum="100">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:orientation="horizontal"
+                android:weightSum="100"
+                android:layout_weight="40">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="50"
+                    android:orientation="vertical">
+
+                    <TextView
+
+                        android:id="@+id/txrem"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/letras"
+                        android:hint="MESA"
+                        android:textStyle="bold"
+                        android:textSize="24sp"/>
+
+                    <TextView
+                        android:id="@+id/txfech"
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+                        android:textColor="@color/letras"
+                        android:textStyle="bold"
+                        android:hint="05:25"
+                        android:textSize="24sp"/>
+
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center_horizontal"
+                    android:layout_marginTop="5dp"
+                    android:layout_weight="50">
+
+                    <Button
+
+                        android:id="@+id/chbutton"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        android:background="@drawable/chbutt"/>
+
+                </LinearLayout>
+
+
+
+
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:orientation="vertical"
+                android:gravity="top"
+                android:layout_weight="50">
+
+
+                <TextView
+                    android:id="@+id/txtext"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:maxLines="3"
+                    android:layout_marginTop="5dp"
+                    android:textColor="@color/letras"
+                    android:textSize="22sp"
+                    android:layout_gravity="center"
+                    android:textStyle="italic|bold"
+                    android:breakStrategy="high_quality"
+                    android:hint="Chicharrones de camaron"/>
+
+            </LinearLayout>
+
+
+
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/txestado"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"/>
+
+
+    </FrameLayout>
+
+
+</android.support.wearable.view.BoxInsetLayout>
